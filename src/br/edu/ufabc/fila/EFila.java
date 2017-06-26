@@ -23,8 +23,7 @@ public class EFila {
      */
     public static void main(String[] args) throws FileNotFoundException, IOException{
         
-        String file = args[0];
-        //String file = "/Users/luissantana/NetBeansProjects/e-Fila/src/br/edu/ufabc/fila/input01.txt";
+        String file = "/Users/luissantana/NetBeansProjects/e-Fila/src/br/edu/ufabc/fila/input01.txt";
         
         try (BufferedReader br = new BufferedReader(new FileReader(file))) {
             String line = br.readLine();
